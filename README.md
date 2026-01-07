@@ -6,7 +6,23 @@
   />
 </p>
 
-# 🛡️ Threat Hunt Report – Sudden Network Slowdown & Internal Port Scanning (Scenario 2)
+---
+
+## 🎭 Scenario Context
+
+The server team observed a **significant network performance degradation** affecting several older devices within the internal **10.0.0.0/16** network. After ruling out external causes such as DDoS attacks, attention shifted to the possibility of **malicious or unauthorized internal activity**.
+
+The security team was tasked with investigating whether any internal hosts were:
+
+- Generating abnormal network traffic  
+- Performing unauthorized discovery or scanning activity  
+- Attempting lateral movement within the environment  
+
+This scenario frames the hunt as an **internal threat and anomaly investigation**, focused on detecting compromised systems, unauthorized reconnaissance, or misuse of internal network resources.
+
+---
+
+# 🛡️ Threat Hunt Report – Sudden Network Slowdown & Internal Port Scanning
 
 ---
 
